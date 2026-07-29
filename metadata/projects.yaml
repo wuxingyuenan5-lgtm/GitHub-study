@@ -107,6 +107,39 @@ projects:
     tags: [推荐, MCP]
     summary: LLM原生量化研究平台，因子/策略/研报知识库，MCP协议让AI直接访问
 
+  - id: A-10
+    category: A
+    category_name: 研报撰写与AI投研
+    name: Vibe-Research
+    repo: simonlin1212/Vibe-Research
+    url: https://github.com/simonlin1212/Vibe-Research
+    stars: "~1k"
+    license: MIT
+    tags: [推荐]
+    summary: A股/美股/港股个人AI投研看板，每日复盘、资讯雷达、个股数据、多空辩论
+
+  - id: A-11
+    category: A
+    category_name: 研报撰写与AI投研
+    name: AI-Berkshire
+    repo: xbtlin/ai-berkshire
+    url: https://github.com/xbtlin/ai-berkshire
+    stars: "~14k"
+    license: MIT
+    tags: [推荐]
+    summary: AI时代价值投资研究框架，巴菲特/芒格/段永平/李录四大师方法论+多Agent并行
+
+  - id: A-12
+    category: A
+    category_name: 研报撰写与AI投研
+    name: research-report-reader-skill
+    repo: silentdog918/research-report-reader-skill
+    url: https://github.com/silentdog918/research-report-reader-skill
+    stars: "未显示"
+    license: 未标注
+    tags: [冷门]
+    summary: 投研报告精读助手Claude Skill，三层阅读法+跨报告交叉比对+英文报告翻译
+
   # B. AI投研 Agent & 大师模拟
   - id: B-01
     category: B
@@ -185,6 +218,39 @@ projects:
     tags: [推荐]
     summary: 多代理LLM金融交易框架原版，模拟真实交易公司角色分工与辩论决策
 
+  - id: B-08
+    category: B
+    category_name: AI投研Agent与大师模拟
+    name: AutoHedge
+    repo: The-Swarm-Corporation/AutoHedge
+    url: https://github.com/The-Swarm-Corporation/AutoHedge
+    stars: "~4k"
+    license: MIT
+    tags: [冷门]
+    summary: 企业级自主对冲基金，多Agent流水线覆盖策略→量化→风控→执行，当前支持Solana
+
+  - id: B-09
+    category: B
+    category_name: AI投研Agent与大师模拟
+    name: OpenAlice
+    repo: TraderAlice/OpenAlice
+    url: https://github.com/TraderAlice/OpenAlice
+    stars: "~6k"
+    license: AGPL-3.0
+    tags: [推荐]
+    summary: 本地化AI交易工作台，Git/Issue/实体追踪/审批门控，把交易变成代码智能体工作流
+
+  - id: B-10
+    category: B
+    category_name: AI投研Agent与大师模拟
+    name: Serenity-Skill
+    repo: muxuuu/serenity-skill
+    url: https://github.com/muxuuu/serenity-skill
+    stars: "~3.6k"
+    license: MIT
+    tags: [推荐]
+    summary: Serenity式供应链瓶颈股票研究Skill，从热点拆产业链找卡位环节
+
   # C. 量化交易框架
   - id: C-01
     category: C
@@ -219,6 +285,39 @@ projects:
     tags: [热门]
     summary: 全栈式中文量化平台，MongoDB数据中台
 
+  - id: C-04
+    category: C
+    category_name: 量化交易框架
+    name: QuantDinger
+    repo: OpenByteInc/QuantDinger
+    url: https://github.com/OpenByteInc/QuantDinger
+    stars: "~10k"
+    license: 未标注
+    tags: [热门]
+    summary: AI量化交易平台，覆盖加密货币/股票/外汇，回测+实盘+市场数据+多Agent研究
+
+  - id: C-05
+    category: C
+    category_name: 量化交易框架
+    name: FinceptTerminal
+    repo: Fincept-Corporation/FinceptTerminal
+    url: https://github.com/Fincept-Corporation/FinceptTerminal
+    stars: "~29k"
+    license: 未标注
+    tags: [热门]
+    summary: 现代金融终端应用，高级市场分析、投资研究、经济数据工具
+
+  - id: C-06
+    category: C
+    category_name: 量化交易框架
+    name: OpenBB
+    repo: OpenBB-finance/OpenBB
+    url: https://github.com/OpenBB-finance/OpenBB
+    stars: "~71k"
+    license: AGPL-3.0
+    tags: [热门]
+    summary: 开源数据平台，面向分析师、量化研究员和AI Agent
+
   # D. 回测引擎
   - id: D-01
     category: D
@@ -252,6 +351,28 @@ projects:
     license: Apache-2.0
     tags: [冷门]
     summary: Quantopian维护版回测引擎
+
+  - id: D-04
+    category: D
+    category_name: 回测引擎
+    name: backtesting.py
+    repo: kernc/backtesting.py
+    url: https://github.com/kernc/backtesting.py
+    stars: "~8.7k"
+    license: 未标注
+    tags: [热门]
+    summary: Python回测交易库，交互式图表、向量化计算、参数优化
+
+  - id: D-05
+    category: D
+    category_name: 回测引擎
+    name: rqalpha
+    repo: ricequant/rqalpha
+    url: https://github.com/ricequant/rqalpha
+    stars: "~6.6k"
+    license: Apache-2.0
+    tags: [热门]
+    summary: 米筐可扩展Python算法回测与交易框架，支持多品种
 
   # E. 决策仪表盘 & 信息聚合
   - id: E-01
@@ -308,6 +429,39 @@ projects:
     license: MIT
     tags: [推荐]
     summary: 跨资产历史收益查询与回测站点，覆盖美股/数字货币/A股ETF/QDII
+
+  - id: E-06
+    category: E
+    category_name: 决策仪表盘与信息聚合
+    name: Vibe-Trading
+    repo: HKUDS/Vibe-Trading
+    url: https://github.com/HKUDS/Vibe-Trading
+    stars: "~28k"
+    license: MIT
+    tags: [热门, 推荐]
+    summary: 个人交易Agent框架，多市场数据、Alpha Zoo、回测、多券商连接器、安全护栏
+
+  - id: E-07
+    category: E
+    category_name: 决策仪表盘与信息聚合
+    name: Horizon
+    repo: Thysrael/Horizon
+    url: https://github.com/Thysrael/Horizon
+    stars: "~8.5k"
+    license: MIT
+    tags: [推荐]
+    summary: AI驱动新闻雷达，多源抓取、评分过滤、生成中英双语每日简报
+
+  - id: E-08
+    category: E
+    category_name: 决策仪表盘与信息聚合
+    name: OpenStock
+    repo: Open-Dev-Society/OpenStock
+    url: https://github.com/Open-Dev-Society/OpenStock
+    stars: "~14k"
+    license: AGPL-3.0
+    tags: [热门]
+    summary: 永久免费开源股票行情应用，自选列表、AI邮件、市场情绪、公司详情
 
   # F. 因子挖掘 & 选股
   - id: F-01
@@ -376,6 +530,28 @@ projects:
     tags: [冷门]
     summary: 强化学习生成协同Alpha因子组合
 
+  - id: F-07
+    category: F
+    category_name: 因子挖掘与选股
+    name: Frontier-Alpha
+    repo: Dicoangelo/frontier-alpha
+    url: https://github.com/Dicoangelo/frontier-alpha
+    stars: "~9"
+    license: MIT
+    tags: [冷门]
+    summary: 认知因子智能平台，80+因子、CVRF信念学习、组合优化、Alpaca纸交易
+
+  - id: F-08
+    category: F
+    category_name: 因子挖掘与选股
+    name: PandaAI-Quantflow
+    repo: PandaAI-Tech/panda_quantflow
+    url: https://github.com/PandaAI-Tech/panda_quantflow
+    stars: "~1k"
+    license: GPL-3.0
+    tags: [冷门]
+    summary: 可视化量化工作流平台，节点式策略编排+机器学习+回测
+
   # G. 强化学习交易
   - id: G-01
     category: G
@@ -443,6 +619,17 @@ projects:
     license: 未标注
     tags: [冷门]
     summary: MT4/MT5外汇EA集合，风险管理/自动下单/技术指标策略
+
+  - id: H-05
+    category: H
+    category_name: 实盘交易工具
+    name: AllTick
+    repo: alltick/alltick-realtime-forex-crypto-stock-tick-finance-websocket-api
+    url: https://github.com/alltick/alltick-realtime-forex-crypto-stock-tick-finance-websocket-api
+    stars: "~591"
+    license: 未标注
+    tags: [冷门]
+    summary: 免费实时金融行情API，港股/美股/A股/加密货币/外汇/贵金属，HTTP+WebSocket
 
   # I. 数据获取
   - id: I-01
@@ -533,6 +720,28 @@ projects:
     tags: [推荐]
     summary: 本地A股量化数据引擎，日K/分钟K/ETF分钟/tick，39种指标，五种调用方式含MCP
 
+  - id: I-09
+    category: I
+    category_name: 数据获取
+    name: fred-us-macro-open-data
+    repo: superpilot69/fred-us-macro-open-data
+    url: https://github.com/superpilot69/fred-us-macro-open-data
+    stars: "~55"
+    license: 未标注
+    tags: [冷门]
+    summary: 美国核心宏观历史数据集，15个高频序列，含Investing.com预期值
+
+  - id: I-10
+    category: I
+    category_name: 数据获取
+    name: XAUUSD-history
+    repo: simom1/XAUUSD-history
+    url: https://github.com/simom1/XAUUSD-history
+    stars: "~2"
+    license: 未标注
+    tags: [冷门]
+    summary: 20个金融品种M1-W1历史OHLCV数据，来源MT5，每日自动更新
+
   # J. 组合优化 & 风控
   - id: J-01
     category: J
@@ -611,6 +820,28 @@ projects:
     license: 未标注
     tags: [冷门]
     summary: Python量化交易策略集合，MACD/RSI/布林带/配对交易/期权跨式/VIX等
+
+  - id: K-05
+    category: K
+    category_name: 策略分析与回测
+    name: OSkhQuant
+    repo: khscience/OSkhQuant
+    url: https://github.com/khscience/OSkhQuant
+    stars: "~1.5k"
+    license: 未标注
+    tags: [冷门]
+    summary: 看海量化回测系统，A股可视化回测，khQuant框架
+
+  - id: K-06
+    category: K
+    category_name: 策略分析与回测
+    name: Quantitative-analysis
+    repo: lnsongxf/Quantitative-analysis
+    url: https://github.com/lnsongxf/Quantitative-analysis
+    stars: "~15"
+    license: 未标注
+    tags: [冷门]
+    summary: 量化研究-券商金工研报复现
 
   # L. 衍生品 & 期权
   - id: L-01
@@ -781,6 +1012,17 @@ projects:
     tags: [冷门]
     summary: 五维涨停预测+游资跟踪+智能选股+买入信号+风险预警
 
+  - id: O-05
+    category: O
+    category_name: 技术形态与缠论与实战工具
+    name: UZI-Skill
+    repo: wbh604/UZI-Skill
+    url: https://github.com/wbh604/UZI-Skill
+    stars: "~5.8k"
+    license: 未标注
+    tags: [热门]
+    summary: 游资Skills，66位投资大佬看盘，22维数据×180条量化规则×17种机构分析方法
+
   # P. 金融大模型
   - id: P-01
     category: P
@@ -903,6 +1145,480 @@ projects:
     license: CC BY-NC-SA 4.0
     tags: [推荐]
     summary: 《AI量化交易从0到1》中英双语教程，22课+30背景+4附录，多智能体架构
+
+  - id: T-03
+    category: T
+    category_name: 量化学习资源与导航
+    name: ai_quant_trade
+    repo: charliedream1/ai_quant_trade
+    url: https://github.com/charliedream1/ai_quant_trade
+    stars: "~6k"
+    license: Apache-2.0
+    tags: [推荐]
+    summary: 股票AI操盘手：从学习、模拟到实盘的一站式AI量化交易平台
+
+  - id: T-04
+    category: T
+    category_name: 量化学习资源与导航
+    name: xquant-beginner
+    repo: xingwudao/xquant-beginner
+    url: https://github.com/xingwudao/xquant-beginner
+    stars: "~666"
+    license: CC BY-NC-SA 4.0 / MIT
+    tags: [推荐]
+    summary: 《XQuant：人人都是量化交易员》开源书稿，配套练习与课程
+
+  # U. 其他关注清单（通用AI、编程、生产力，非直接二级市场工具）
+  - id: U-01
+    category: U
+    category_name: 其他关注清单
+    name: awesome-vibe-coding
+    repo: filipecalegario/awesome-vibe-coding
+    url: https://github.com/filipecalegario/awesome-vibe-coding
+    stars: "~5k"
+    license: 未标注
+    tags: []
+    summary: Vibe Coding资源精选清单，与AI协作编程参考
+
+  - id: U-02
+    category: U
+    category_name: 其他关注清单
+    name: public-apis
+    repo: public-apis/public-apis
+    url: https://github.com/public-apis/public-apis
+    stars: "453k+"
+    license: 未标注
+    tags: []
+    summary: 免费API collective list
+
+  - id: U-03
+    category: U
+    category_name: 其他关注清单
+    name: gstack
+    repo: garrytan/gstack
+    url: https://github.com/garrytan/gstack
+    stars: "125k"
+    license: 未标注
+    tags: []
+    summary: Garry Tan的Claude Code 23个opinionated工具
+
+  - id: U-04
+    category: U
+    category_name: 其他关注清单
+    name: modern-software-dev-assignments
+    repo: mihail911/modern-software-dev-assignments
+    url: https://github.com/mihail911/modern-software-dev-assignments
+    stars: "~3.8k"
+    license: 未标注
+    tags: []
+    summary: 斯坦福CS146S现代软件开发作业
+
+  - id: U-05
+    category: U
+    category_name: 其他关注清单
+    name: easy-vibe
+    repo: datawhalechina/easy-vibe
+    url: https://github.com/datawhalechina/easy-vibe
+    stars: "~18k"
+    license: 未标注
+    tags: []
+    summary: Datawhale vibe coding 2026入门到精通课程
+
+  - id: U-06
+    category: U
+    category_name: 其他关注清单
+    name: vibe-coding-cn-tradecat
+    repo: tradecatlabs/vibe-coding-cn
+    url: https://github.com/tradecatlabs/vibe-coding-cn
+    stars: "~15k"
+    license: 未标注
+    tags: []
+    summary: Vibe Coding从入门到精通教程，AI结对编程
+
+  - id: U-07
+    category: U
+    category_name: 其他关注清单
+    name: CV-notes
+    repo: AccumulateMore/CV
+    url: https://github.com/AccumulateMore/CV
+    stars: "~23k"
+    license: 未标注
+    tags: []
+    summary: 超级全面的深度学习笔记合集
+
+  - id: U-08
+    category: U
+    category_name: 其他关注清单
+    name: opc-methodology
+    repo: easychen/opc-methodology
+    url: https://github.com/easychen/opc-methodology
+    stars: "~16k"
+    license: 未标注
+    tags: []
+    summary: 《一人企业方法论》第二版
+
+  - id: U-09
+    category: U
+    category_name: 其他关注清单
+    name: one-person-businesses-methodology
+    repo: easychen/one-person-businesses-methodology
+    url: https://github.com/easychen/one-person-businesses-methodology
+    stars: "~8k"
+    license: 未标注
+    tags: []
+    summary: 一人公司方法论
+
+  - id: U-10
+    category: U
+    category_name: 其他关注清单
+    name: vibe-coding-cn-2025Emma
+    repo: 2025Emma/vibe-coding-cn
+    url: https://github.com/2025Emma/vibe-coding-cn
+    stars: "~22k"
+    license: 未标注
+    tags: []
+    summary: Vibe Coding中文教程
+
+  - id: U-11
+    category: U
+    category_name: 其他关注清单
+    name: aicodeguide
+    repo: automata/aicodeguide
+    url: https://github.com/automata/aicodeguide
+    stars: "~2.7k"
+    license: 未标注
+    tags: []
+    summary: AI Code Guide编程学习路线图
+
+  - id: U-12
+    category: U
+    category_name: 其他关注清单
+    name: Blockchain-dark-forest-selfguard-handbook
+    repo: slowmist/Blockchain-dark-forest-selfguard-handbook
+    url: https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook
+    stars: "~6.8k"
+    license: 未标注
+    tags: []
+    summary: 区块链黑暗森林自救手册
+
+  - id: U-13
+    category: U
+    category_name: 其他关注清单
+    name: AiToEarn
+    repo: yikart/AiToEarn
+    url: https://github.com/yikart/AiToEarn
+    stars: "~24k"
+    license: 未标注
+    tags: []
+    summary: Let's use AI to Earn
+
+  - id: U-14
+    category: U
+    category_name: 其他关注清单
+    name: context-mode
+    repo: mksglu/context-mode
+    url: https://github.com/mksglu/context-mode
+    stars: "~19k"
+    license: 未标注
+    tags: []
+    summary: AI coding agents上下文窗口优化
+
+  - id: U-15
+    category: U
+    category_name: 其他关注清单
+    name: ljg-skills
+    repo: lijigang/ljg-skills
+    url: https://github.com/lijigang/ljg-skills
+    stars: "~6.7k"
+    license: 未标注
+    tags: []
+    summary: 李继刚的Agent Skills
+
+  - id: U-16
+    category: U
+    category_name: 其他关注清单
+    name: architecture-diagram-generator
+    repo: Cocoon-AI/architecture-diagram-generator
+    url: https://github.com/Cocoon-AI/architecture-diagram-generator
+    stars: "~6.7k"
+    license: 未标注
+    tags: []
+    summary: 生成暗色主题系统架构图HTML/SVG
+
+  - id: U-17
+    category: U
+    category_name: 其他关注清单
+    name: awesome-persona-distill-skills
+    repo: xixu-me/awesome-persona-distill-skills
+    url: https://github.com/xixu-me/awesome-persona-distill-skills
+    stars: "~4.6k"
+    license: 未标注
+    tags: []
+    summary: 人物/关系/纪念场景Agent Skills精选
+
+  - id: U-18
+    category: U
+    category_name: 其他关注清单
+    name: caveman
+    repo: JuliusBrussee/caveman
+    url: https://github.com/JuliusBrussee/caveman
+    stars: "~94k"
+    license: 未标注
+    tags: []
+    summary: Claude Code Skill，少token说话像洞穴人
+
+  - id: U-19
+    category: U
+    category_name: 其他关注清单
+    name: web-access
+    repo: eze-is/web-access
+    url: https://github.com/eze-is/web-access
+    stars: "~8.5k"
+    license: 未标注
+    tags: []
+    summary: 给Claude Code装上完整联网能力
+
+  - id: U-20
+    category: U
+    category_name: 其他关注清单
+    name: cc-switch
+    repo: farion1231/cc-switch
+    url: https://github.com/farion1231/cc-switch
+    stars: "~122k"
+    license: 未标注
+    tags: []
+    summary: 跨平台All-in-One AI助手
+
+  - id: U-21
+    category: U
+    category_name: 其他关注清单
+    name: system-prompts-and-models-of-ai-tools
+    repo: x1xhlol/system-prompts-and-models-of-ai-tools
+    url: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools
+    stars: "~142k"
+    license: 未标注
+    tags: []
+    summary: 各AI工具system prompt和模型汇总
+
+  - id: U-22
+    category: U
+    category_name: 其他关注清单
+    name: toon
+    repo: toon-format/toon
+    url: https://github.com/toon-format/toon
+    stars: "~25k"
+    license: 未标注
+    tags: []
+    summary: Token-Oriented Object Notation
+
+  - id: U-23
+    category: U
+    category_name: 其他关注清单
+    name: pinchbench-skill
+    repo: pinchbench/skill
+    url: https://github.com/pinchbench/skill
+    stars: "~1.3k"
+    license: 未标注
+    tags: []
+    summary: OpenClaw coding agents benchmark
+
+  - id: U-24
+    category: U
+    category_name: 其他关注清单
+    name: awesome-nanobanana-pro
+    repo: ZeroLu/awesome-nanobanana-pro
+    url: https://github.com/ZeroLu/awesome-nanobanana-pro
+    stars: "~10k"
+    license: 未标注
+    tags: []
+    summary: Nano Banana pro prompts精选
+
+  - id: U-25
+    category: U
+    category_name: 其他关注清单
+    name: openclaw101
+    repo: mengjian-github/openclaw101
+    url: https://github.com/mengjian-github/openclaw101
+    stars: "~3k"
+    license: 未标注
+    tags: []
+    summary: OpenClaw 101 7天掌握AI私人助理
+
+  - id: U-26
+    category: U
+    category_name: 其他关注清单
+    name: ECC
+    repo: affaan-m/ECC
+    url: https://github.com/affaan-m/ECC
+    stars: "~235k"
+    license: 未标注
+    tags: []
+    summary: Agent harness性能优化系统
+
+  - id: U-27
+    category: U
+    category_name: 其他关注清单
+    name: Product-Manager-Skills
+    repo: deanpeters/Product-Manager-Skills
+    url: https://github.com/deanpeters/Product-Manager-Skills
+    stars: "~6k"
+    license: 未标注
+    tags: []
+    summary: 产品经理Skills框架
+
+  - id: U-28
+    category: U
+    category_name: 其他关注清单
+    name: awesome-openclaw-skills
+    repo: VoltAgent/awesome-openclaw-skills
+    url: https://github.com/VoltAgent/awesome-openclaw-skills
+    stars: "~51k"
+    license: 未标注
+    tags: []
+    summary: OpenClaw skills精选集合
+
+  - id: U-29
+    category: U
+    category_name: 其他关注清单
+    name: anthropic-skills
+    repo: anthropics/skills
+    url: https://github.com/anthropics/skills
+    stars: "~164k"
+    license: 未标注
+    tags: []
+    summary: Anthropic官方Agent Skills
+
+  - id: U-30
+    category: U
+    category_name: 其他关注清单
+    name: planning-with-files
+    repo: OthmanAdi/planning-with-files
+    url: https://github.com/OthmanAdi/planning-with-files
+    stars: "~25k"
+    license: 未标注
+    tags: []
+    summary: 基于文件的AI coding agent持久化规划
+
+  - id: U-31
+    category: U
+    category_name: 其他关注清单
+    name: OpenSpec
+    repo: Fission-AI/OpenSpec
+    url: https://github.com/Fission-AI/OpenSpec
+    stars: "~63k"
+    license: 未标注
+    tags: []
+    summary: Spec-driven development for AI coding
+
+  - id: U-32
+    category: U
+    category_name: 其他关注清单
+    name: ui-ux-pro-max-skill-cn
+    repo: bbylw/ui-ux-pro-max-skill-cn
+    url: https://github.com/bbylw/ui-ux-pro-max-skill-cn
+    stars: "~1.2k"
+    license: 未标注
+    tags: []
+    summary: UI/UX Pro Max技能库中文教程
+
+  - id: U-33
+    category: U
+    category_name: 其他关注清单
+    name: ai-website-cloner-template
+    repo: JCodesMore/ai-website-cloner-template
+    url: https://github.com/JCodesMore/ai-website-cloner-template
+    stars: "~30k"
+    license: 未标注
+    tags: []
+    summary: AI一键克隆网站模板
+
+  - id: U-34
+    category: U
+    category_name: 其他关注清单
+    name: awesome-design-md
+    repo: VoltAgent/awesome-design-md
+    url: https://github.com/VoltAgent/awesome-design-md
+    stars: "~105k"
+    license: 未标注
+    tags: []
+    summary: DESIGN.md文件集合
+
+  - id: U-35
+    category: U
+    category_name: 其他关注清单
+    name: react-bits
+    repo: DavidHDev/react-bits
+    url: https://github.com/DavidHDev/react-bits
+    stars: "~44k"
+    license: 未标注
+    tags: []
+    summary: 动画交互React组件库
+
+  - id: U-36
+    category: U
+    category_name: 其他关注清单
+    name: agent-skills
+    repo: addyosmani/agent-skills
+    url: https://github.com/addyosmani/agent-skills
+    stars: "~80k"
+    license: 未标注
+    tags: []
+    summary: 生产级AI coding agents工程skills
+
+  - id: U-37
+    category: U
+    category_name: 其他关注清单
+    name: wewrite
+    repo: imraywang/wewrite
+    url: https://github.com/imraywang/wewrite
+    stars: "~3k"
+    license: 未标注
+    tags: []
+    summary: 公众号内容全流程Skill
+
+  - id: U-38
+    category: U
+    category_name: 其他关注清单
+    name: superpowers
+    repo: obra/superpowers
+    url: https://github.com/obra/superpowers
+    stars: "~262k"
+    license: 未标注
+    tags: []
+    summary: Agentic skills framework
+
+  - id: U-39
+    category: U
+    category_name: 其他关注清单
+    name: orca
+    repo: stablyai/orca
+    url: https://github.com/stablyai/orca
+    stars: "~32k"
+    license: 未标注
+    tags: []
+    summary: 并行Agent舰队ADE
+
+  - id: U-40
+    category: U
+    category_name: 其他关注清单
+    name: obsidian-skills
+    repo: kepano/obsidian-skills
+    url: https://github.com/kepano/obsidian-skills
+    stars: "~43k"
+    license: 未标注
+    tags: []
+    summary: Obsidian Agent Skills
+
+  - id: U-41
+    category: U
+    category_name: 其他关注清单
+    name: awesome-claude-code-subagents
+    repo: VoltAgent/awesome-claude-code-subagents
+    url: https://github.com/VoltAgent/awesome-claude-code-subagents
+    stars: "~23k"
+    license: 未标注
+    tags: []
+    summary: 100+ Claude Code subagents
 
 websites:
   - name: Global Asset History 在线版
