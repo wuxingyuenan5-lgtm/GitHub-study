@@ -1,0 +1,24 @@
+Ticker,Score,Weight (%),Reason
+ABNB,0.89,7,F=8/9; strong ROA & liquidity.
+BKR,0.89,7,F=8/9; positive ROA & leverage.
+CMCSA,0.89,7,F=8/9; strong liquidity & no equity issuance.
+IDXX,0.89,7,F=8/9; strong ROA & liquidity.
+KLAC,0.89,7,F=8/9; strong ROA & liquidity.
+QCOM,0.89,7,F=8/9; strong ROA & liquidity.
+ADBE,0.78,6,F=7/9; positive ROA & margins.
+AMD,0.78,6,F=7/9; strong ROA & margins.
+APP,0.78,6,F=7/9; strong ROA & liquidity.
+AVGO,0.78,6,F=7/9; strong ROA & margins.
+CHTR,0.78,6,F=7/9; strong ROA & liquidity.
+EA,0.78,6,F=7/9; strong ROA & margins.
+FTNT,0.78,6,F=7/9; strong ROA & margins.
+GEHC,0.78,6,F=7/9; strong ROA & margins.
+INTU,0.78,6,F=7/9; strong ROA & liquidity.
+KHC,0.78,6,F=7/9; strong ROA & liquidity.
+LIN,0.78,6,F=7/9; strong ROA & liquidity.
+LRCX,0.78,6,F=7/9; strong ROA & margins.
+LULU,0.78,6,F=7/9; strong ROA & margins.
+MDLZ,0.78,6,F=7/9; strong ROA & margins.
+META,0.78,6,F=7/9; strong ROA & liquidity.
+NFLX,0.78,6,F=7/9; strong ROA & margins.
+NVDA,0.78,6,F=7/9; strong ROA & margins.
