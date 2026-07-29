@@ -1,0 +1,911 @@
+# GitHub-study 项目元数据（Source of Truth）
+# 规则：
+# 1. id 格式为 <分类>-<序号>，稳定不变，新增项目在本分类内递增
+# 2. 不备份源码，仅记录地址与评估
+# 3. stars 字段写近似值或范围，定期可脚本更新
+# 4. license 未标注写 "未标注"
+# 5. tags 可选值：热门、冷门、推荐、冠军、比赛、MCP、实盘、学习
+
+projects:
+  # A. 研报撰写 & AI投研
+  - id: A-01
+    category: A
+    category_name: 研报撰写与AI投研
+    name: FinSight
+    repo: RUC-NLPIR/FinSight
+    url: https://github.com/RUC-NLPIR/FinSight
+    stars: "~300"
+    license: GPL-3.0
+    tags: [冠军, 热门]
+    summary: AFAC2025赛题四冠军，一键生成2万字专业研报，CAVM变量内存架构
+
+  - id: A-02
+    category: A
+    category_name: 研报撰写与AI投研
+    name: TradingAgents-CN
+    repo: hsliuping/TradingAgents-CN
+    url: https://github.com/hsliuping/TradingAgents-CN
+    stars: "~2k"
+    license: MIT
+    tags: [推荐]
+    summary: 8角色智能体，A股Tushare/AkShare+美股FinnHub，DeepSeek可跑，Streamlit界面
+
+  - id: A-03
+    category: A
+    category_name: 研报撰写与AI投研
+    name: Menu-RAG
+    repo: nambo/menu-rag
+    url: https://github.com/nambo/menu-rag
+    stars: "<50"
+    license: 未标注
+    tags: [冷门, 比赛]
+    summary: AFAC2025赛题四三等奖，金融多模态报告自动生成，个股/行业/宏观三场景
+
+  - id: A-04
+    category: A
+    category_name: 研报撰写与AI投研
+    name: tianchi_AFAC_AGENT
+    repo: cymbidum/tianchi_AFAC_AGENT
+    url: https://github.com/cymbidum/tianchi_AFAC_AGENT
+    stars: "<10"
+    license: 未标注
+    tags: [冷门, 比赛]
+    summary: AFAC2025赛题四A榜前百，akshare三大报表+搜索+pyplot+Word输出
+
+  - id: A-05
+    category: A
+    category_name: 研报撰写与AI投研
+    name: Financial-Research-with-Crew-AI
+    repo: g-donev/Financial-Research-with-Crew-AI
+    url: https://github.com/g-donev/Financial-Research-with-Crew-AI
+    stars: "0"
+    license: MIT
+    tags: [冷门]
+    summary: 极简CrewAI 2-Agent研报工作流，支持DeepSeek/Groq
+
+  - id: A-06
+    category: A
+    category_name: 研报撰写与AI投研
+    name: FinRobot
+    repo: AI4Finance-Foundation/FinRobot
+    url: https://github.com/AI4Finance-Foundation/FinRobot
+    stars: "14k+"
+    license: Apache-2.0
+    tags: [热门]
+    summary: 开源金融AI Agent平台，多智能体股票研究，自动研报生成，含桌面端
+
+  - id: A-07
+    category: A
+    category_name: 研报撰写与AI投研
+    name: master-TradingAgents
+    repo: sunyet-01/master-TradingAgents
+    url: https://github.com/sunyet-01/master-TradingAgents
+    stars: "未显示"
+    license: MIT/混合
+    tags: [推荐]
+    summary: A股多角色AI投研台前端，12个研究角色，流式呈现，含SaaS基座
+
+  - id: A-08
+    category: A
+    category_name: 研报撰写与AI投研
+    name: TradingAgents-astock
+    repo: simonlin1212/TradingAgents-astock
+    url: https://github.com/simonlin1212/TradingAgents-astock
+    stars: "未显示"
+    license: Apache-2.0
+    tags: [推荐]
+    summary: TradingAgents A股深度改造版，7位分析师+多空辩论，适配A股数据源与规则
+
+  - id: A-09
+    category: A
+    category_name: 研报撰写与AI投研
+    name: quant-research-platform
+    repo: zhangjunmengyang/quant-research-platform
+    url: https://github.com/zhangjunmengyang/quant-research-platform
+    stars: "未显示"
+    license: MIT
+    tags: [推荐, MCP]
+    summary: LLM原生量化研究平台，因子/策略/研报知识库，MCP协议让AI直接访问
+
+  # B. AI投研 Agent & 大师模拟
+  - id: B-01
+    category: B
+    category_name: AI投研Agent与大师模拟
+    name: RD-Agent-Quant
+    repo: microsoft/RD-Agent
+    url: https://github.com/microsoft/RD-Agent
+    stars: "~5k"
+    license: MIT
+    tags: [热门, 推荐]
+    summary: 微软NeurIPS 2025，自动因子挖掘+模型优化闭环，Co-STEER代码智能体
+
+  - id: B-02
+    category: B
+    category_name: AI投研Agent与大师模拟
+    name: GuruAgents
+    repo: yejining99/GuruAgents
+    url: https://github.com/yejining99/GuruAgents
+    stars: "<50"
+    license: 未标注
+    tags: [冷门]
+    summary: 5个投资大师Agent，Prompt工程量化大师哲学，NASDAQ-100回测
+
+  - id: B-03
+    category: B
+    category_name: AI投研Agent与大师模拟
+    name: ai-hedge-fund
+    repo: virattt/ai-hedge-fund
+    url: https://github.com/virattt/ai-hedge-fund
+    stars: "~15k"
+    license: MIT
+    tags: [热门]
+    summary: 12个智能体模拟投资大师，估值+情绪+基本面+技术+风控
+
+  - id: B-04
+    category: B
+    category_name: AI投研Agent与大师模拟
+    name: Dexter
+    repo: virattt/dexter
+    url: https://github.com/virattt/dexter
+    stars: "~2k"
+    license: MIT
+    tags: [冷门]
+    summary: 200行代码的自主金融研究Agent，分解问题→收集数据→验证→洞察
+
+  - id: B-05
+    category: B
+    category_name: AI投研Agent与大师模拟
+    name: ValueCell
+    repo: ValueCell-ai/valuecell
+    url: https://github.com/ValueCell-ai/valuecell
+    stars: "~500"
+    license: 未标注
+    tags: [冷门]
+    summary: 投资大师策略编码为独立Agent辩论，A2A协议，AutoTradeAgent模拟交易
+
+  - id: B-06
+    category: B
+    category_name: AI投研Agent与大师模拟
+    name: Day1Global-Skills
+    repo: star23/Day1Global-Skills
+    url: https://github.com/star23/Day1Global-Skills
+    stars: "未显示"
+    license: 未标注
+    tags: [推荐, MCP]
+    summary: AI Agent投资分析Skills共享仓库，覆盖科技股财报/价值投资/市场情绪/宏观流动性/比特币周期
+
+  - id: B-07
+    category: B
+    category_name: AI投研Agent与大师模拟
+    name: TradingAgents
+    repo: tauricresearch/tradingagents
+    url: https://github.com/tauricresearch/tradingagents
+    stars: "未显示"
+    license: 未标注
+    tags: [推荐]
+    summary: 多代理LLM金融交易框架原版，模拟真实交易公司角色分工与辩论决策
+
+  # C. 量化交易框架
+  - id: C-01
+    category: C
+    category_name: 量化交易框架
+    name: VeighNa
+    repo: vnpy/vnpy
+    url: https://github.com/vnpy/vnpy
+    stars: "29.7k"
+    license: MIT
+    tags: [热门]
+    summary: 国产量化交易框架，40+交易接口，CTA/算法/期权模块
+
+  - id: C-02
+    category: C
+    category_name: 量化交易框架
+    name: Qlib
+    repo: microsoft/qlib
+    url: https://github.com/microsoft/qlib
+    stars: "17.5k"
+    license: MIT
+    tags: [热门]
+    summary: 微软AI量化投资平台，LightGBM/Transformer/LSTM，二进制高速存储
+
+  - id: C-03
+    category: C
+    category_name: 量化交易框架
+    name: QUANTAXIS
+    repo: yutiansut/QUANTAXIS
+    url: https://github.com/yutiansut/QUANTAXIS
+    stars: "8.7k"
+    license: MIT
+    tags: [热门]
+    summary: 全栈式中文量化平台，MongoDB数据中台
+
+  # D. 回测引擎
+  - id: D-01
+    category: D
+    category_name: 回测引擎
+    name: Backtrader
+    repo: mementum/backtrader
+    url: https://github.com/mementum/backtrader
+    stars: "17k"
+    license: MIT
+    tags: [热门]
+    summary: 经典Python回测引擎
+
+  - id: D-02
+    category: D
+    category_name: 回测引擎
+    name: vectorbt
+    repo: polakowo/vectorbt
+    url: https://github.com/polakowo/vectorbt
+    stars: "4k"
+    license: 未标注
+    tags: []
+    summary: 极速向量化回测
+
+  - id: D-03
+    category: D
+    category_name: 回测引擎
+    name: Zipline-reloaded
+    repo: stefan-jansen/zipline-reloaded
+    url: https://github.com/stefan-jansen/zipline-reloaded
+    stars: "1k"
+    license: Apache-2.0
+    tags: [冷门]
+    summary: Quantopian维护版回测引擎
+
+  # E. 决策仪表盘 & 信息聚合
+  - id: E-01
+    category: E
+    category_name: 决策仪表盘与信息聚合
+    name: daily_stock_analysis
+    repo: ZhuLinsen/daily_stock_analysis
+    url: https://github.com/ZhuLinsen/daily_stock_analysis
+    stars: "8k+"
+    license: MIT
+    tags: [推荐]
+    summary: LLM驱动A股/港股/美股智能分析器，每日自动推送决策仪表盘
+
+  - id: E-02
+    category: E
+    category_name: 决策仪表盘与信息聚合
+    name: OpenBB Terminal
+    repo: OpenBB-finance/OpenBBTerminal
+    url: https://github.com/OpenBB-finance/OpenBBTerminal
+    stars: "23k"
+    license: MIT
+    tags: [热门]
+    summary: 开源彭博终端替代
+
+  - id: E-03
+    category: E
+    category_name: 决策仪表盘与信息聚合
+    name: market-hot-dashboard
+    repo: akfamily-market/market-hot-dashboard
+    url: https://github.com/akfamily-market/market-hot-dashboard
+    stars: "~2k"
+    license: 未标注
+    tags: []
+    summary: 跨市场热榜聚合
+
+  - id: E-04
+    category: E
+    category_name: 决策仪表盘与信息聚合
+    name: aiagents-stock
+    repo: hongy3025/aiagents-stock
+    url: https://github.com/hongy3025/aiagents-stock
+    stars: "~100"
+    license: MIT
+    tags: [冷门, 推荐]
+    summary: 多AI智能体盯盘系统，游资龙虎榜+板块预警轮动+miniqmt接口
+
+  - id: E-05
+    category: E
+    category_name: 决策仪表盘与信息聚合
+    name: global_asset_history
+    repo: scsfwgy/global_asset_history
+    url: https://github.com/scsfwgy/global_asset_history
+    stars: "未显示"
+    license: MIT
+    tags: [推荐]
+    summary: 跨资产历史收益查询与回测站点，覆盖美股/数字货币/A股ETF/QDII
+
+  # F. 因子挖掘 & 选股
+  - id: F-01
+    category: F
+    category_name: 因子挖掘与选股
+    name: RD-Agent-Quant
+    repo: microsoft/RD-Agent
+    url: https://github.com/microsoft/RD-Agent
+    stars: "~5k"
+    license: MIT
+    tags: [推荐]
+    summary: 同B-01，自动因子挖掘闭环
+
+  - id: F-02
+    category: F
+    category_name: 因子挖掘与选股
+    name: AlphaAgent
+    repo: RndmVariableQ/AlphaAgent
+    url: https://github.com/RndmVariableQ/AlphaAgent
+    stars: "未显示"
+    license: 未标注
+    tags: [冷门, 比赛]
+    summary: KDD 2025论文代码，3 Agent自动挖掘Alpha因子
+
+  - id: F-03
+    category: F
+    category_name: 因子挖掘与选股
+    name: MCTS-LLM-Alpha
+    repo: dtbtc/mcts-llm-alpha
+    url: https://github.com/dtbtc/mcts-llm-alpha
+    stars: "未显示"
+    license: 未标注
+    tags: [冷门]
+    summary: 蒙特卡洛树搜索+LLM挖掘公式化Alpha因子
+
+  - id: F-04
+    category: F
+    category_name: 因子挖掘与选股
+    name: aifa-quant
+    repo: Hanzhi0807/aifa-quant
+    url: https://github.com/Hanzhi0807/aifa-quant
+    stars: "~1k"
+    license: 未标注
+    tags: [推荐]
+    summary: AI选股+SHAP可解释，5种投资者profile，多层风控
+
+  - id: F-05
+    category: F
+    category_name: 因子挖掘与选股
+    name: alpha-gfn
+    repo: nshen7/alpha-gfn
+    url: https://github.com/nshen7/alpha-gfn
+    stars: "未显示"
+    license: 未标注
+    tags: [冷门]
+    summary: GFlowNet挖掘Alpha因子
+
+  - id: F-06
+    category: F
+    category_name: 因子挖掘与选股
+    name: AlphaGen
+    repo: RL-MLDM/alphagen
+    url: https://github.com/RL-MLDM/alphagen
+    stars: "未显示"
+    license: 未标注
+    tags: [冷门]
+    summary: 强化学习生成协同Alpha因子组合
+
+  # G. 强化学习交易
+  - id: G-01
+    category: G
+    category_name: 强化学习交易
+    name: FinRL
+    repo: AI4Finance-Foundation/FinRL
+    url: https://github.com/AI4Finance-Foundation/FinRL
+    stars: "14k"
+    license: Apache-2.0
+    tags: [热门]
+    summary: 金融强化学习框架
+
+  - id: G-02
+    category: G
+    category_name: 强化学习交易
+    name: TradeMaster
+    repo: TradeMaster-NTU/TradeMaster
+    url: https://github.com/TradeMaster-NTU/TradeMaster
+    stars: "~2.9k"
+    license: 未标注
+    tags: [冷门, 推荐]
+    summary: 南洋理工NeurIPS 2023，15种RL算法，多篇顶会支撑
+
+  # H. 实盘交易工具
+  - id: H-01
+    category: H
+    category_name: 实盘交易工具
+    name: easytrader
+    repo: shidenggui/easytrader
+    url: https://github.com/shidenggui/easytrader
+    stars: "8.5k"
+    license: MIT
+    tags: [热门]
+    summary: 券商客户端自动下单
+
+  - id: H-02
+    category: H
+    category_name: 实盘交易工具
+    name: tqsdk
+    repo: shinnytech/tqsdk
+    url: https://github.com/shinnytech/tqsdk
+    stars: "4.9k"
+    license: MIT
+    tags: []
+    summary: 期货量化实盘
+
+  - id: H-03
+    category: H
+    category_name: 实盘交易工具
+    name: freqtrade
+    repo: freqtrade/freqtrade
+    url: https://github.com/freqtrade/freqtrade
+    stars: "22.7k"
+    license: GPL-3.0
+    tags: [热门]
+    summary: 加密货币交易机器人
+
+  - id: H-04
+    category: H
+    category_name: 实盘交易工具
+    name: MT4-MT5-Trading-EA-Collections
+    repo: nkanven/MT4-MT5-Trading-EA-Collections
+    url: https://github.com/nkanven/MT4-MT5-Trading-EA-Collections
+    stars: "未显示"
+    license: 未标注
+    tags: [冷门]
+    summary: MT4/MT5外汇EA集合，风险管理/自动下单/技术指标策略
+
+  # I. 数据获取
+  - id: I-01
+    category: I
+    category_name: 数据获取
+    name: AKShare
+    repo: akfamily/akshare
+    url: https://github.com/akfamily/akshare
+    stars: "~9k"
+    license: MIT
+    tags: [热门]
+    summary: A股/港股/期货/宏观数据全覆盖
+
+  - id: I-02
+    category: I
+    category_name: 数据获取
+    name: adata
+    repo: 1nchaos/adata
+    url: https://github.com/1nchaos/adata
+    stars: "5k"
+    license: MIT
+    tags: []
+    summary: 专注A股免费量化数据库
+
+  - id: I-03
+    category: I
+    category_name: 数据获取
+    name: FinanceToolkit
+    repo: JerBouma/FinanceToolkit
+    url: https://github.com/JerBouma/FinanceToolkit
+    stars: "5.2k"
+    license: MIT
+    tags: [推荐, MCP]
+    summary: 130+财务指标计算，全球市场，支持MCP Server
+
+  - id: I-04
+    category: I
+    category_name: 数据获取
+    name: stock-sdk
+    repo: chengzp/stock-sdk
+    url: https://github.com/chengzp/stock-sdk
+    stars: "~940"
+    license: MIT
+    tags: [推荐, MCP]
+    summary: 前端TypeScript行情SDK，零依赖，支持MCP Server
+
+  - id: I-05
+    category: I
+    category_name: 数据获取
+    name: stock-top-papers
+    repo: RolfLobo/stock-top-papers
+    url: https://github.com/RolfLobo/stock-top-papers
+    stars: "~200"
+    license: 未标注
+    tags: [冷门]
+    summary: 股价预测+量化交易顶会论文集合
+
+  - id: I-06
+    category: I
+    category_name: 数据获取
+    name: a-stock-data
+    repo: simonlin1212/a-stock-data
+    url: https://github.com/simonlin1212/a-stock-data
+    stars: "未显示"
+    license: Apache-2.0
+    tags: [推荐]
+    summary: A股全栈数据工具包，44个端点15个数据源，零鉴权，AI编程助手友好
+
+  - id: I-07
+    category: I
+    category_name: 数据获取
+    name: global-stock-data
+    repo: simonlin1212/global-stock-data
+    url: https://github.com/simonlin1212/global-stock-data
+    stars: "未显示"
+    license: Apache-2.0
+    tags: [推荐]
+    summary: 美股/港股全栈数据工具包，CBOE期权Greeks、FINRA做空量、SEC EDGAR
+
+  - id: I-08
+    category: I
+    category_name: 数据获取
+    name: free-stockdb
+    repo: hello245m/free-stockdb
+    url: https://github.com/hello245m/free-stockdb
+    stars: "未显示"
+    license: MIT
+    tags: [推荐]
+    summary: 本地A股量化数据引擎，日K/分钟K/ETF分钟/tick，39种指标，五种调用方式含MCP
+
+  # J. 组合优化 & 风控
+  - id: J-01
+    category: J
+    category_name: 组合优化与风控
+    name: Riskfolio-Lib
+    repo: dcajasn/Riskfolio-Lib
+    url: https://github.com/dcajasn/Riskfolio-Lib
+    stars: "~2k"
+    license: MIT
+    tags: []
+    summary: 24种风险度量+均值风险优化
+
+  - id: J-02
+    category: J
+    category_name: 组合优化与风控
+    name: QuantStats
+    repo: ranaroussi/quantstats
+    url: https://github.com/ranaroussi/quantstats
+    stars: "7.5k"
+    license: MIT
+    tags: [热门]
+    summary: 组合绩效一键报告
+
+  - id: J-03
+    category: J
+    category_name: 组合优化与风控
+    name: ML-Portfolio-Optimization
+    repo: Gouldh/ML-Portfolio-Optimization
+    url: https://github.com/Gouldh/ML-Portfolio-Optimization
+    stars: "未显示"
+    license: 未标注
+    tags: [冷门]
+    summary: ML+金融理论组合优化，Black-Litterman
+
+  # K. 策略分析 & 回测
+  - id: K-01
+    category: K
+    category_name: 策略分析与回测
+    name: Qbot
+    repo: UFund-Me/Qbot
+    url: https://github.com/UFund-Me/Qbot
+    stars: "11.4k"
+    license: MIT
+    tags: [热门]
+    summary: 智能交易策略+回测+自动调仓
+
+  - id: K-02
+    category: K
+    category_name: 策略分析与回测
+    name: abu量化
+    repo: bbfamily/abu
+    url: https://github.com/bbfamily/abu
+    stars: "13.7k"
+    license: GPL-3.0
+    tags: [热门]
+    summary: 缠论/波浪/经典技术指标（停止更新）
+
+  - id: K-03
+    category: K
+    category_name: 策略分析与回测
+    name: chan.py
+    repo: Qdriving/chan.py
+    url: https://github.com/Qdriving/chan.py
+    stars: "~300"
+    license: MIT
+    tags: [冷门, 推荐]
+    summary: 开放式缠论Python实现框架，形态学/动力学买卖点+ML打分+实盘
+
+  - id: K-04
+    category: K
+    category_name: 策略分析与回测
+    name: quant-trading
+    repo: je-suis-tm/quant-trading
+    url: https://github.com/je-suis-tm/quant-trading
+    stars: "未显示"
+    license: 未标注
+    tags: [冷门]
+    summary: Python量化交易策略集合，MACD/RSI/布林带/配对交易/期权跨式/VIX等
+
+  # L. 衍生品 & 期权
+  - id: L-01
+    category: L
+    category_name: 衍生品与期权
+    name: FinancePy
+    repo: domokane/FinancePy
+    url: https://github.com/domokane/FinancePy
+    stars: "未显示"
+    license: 未标注
+    tags: [冷门]
+    summary: 期权/期货定价+Numba加速
+
+  - id: L-02
+    category: L
+    category_name: 衍生品与期权
+    name: Scenario-Analysis-of-Options-Trading
+    repo: Yuyang-Yao75/Scenario-Analysis-of-Options-Trading
+    url: https://github.com/Yuyang-Yao75/Scenario-Analysis-of-Options-Trading
+    stars: "<10"
+    license: 未标注
+    tags: [冷门, 推荐]
+    summary: 期权组合情景分析，标的价格×波动率P&L热力矩阵，A股保证金+Greeks
+
+  - id: L-03
+    category: L
+    category_name: 衍生品与期权
+    name: Attribution-Analysis-of-Options-Trading
+    repo: Yuyang-Yao75/Attribution-Analysis-of-Options-Trading
+    url: https://github.com/Yuyang-Yao75/Attribution-Analysis-of-Options-Trading
+    stars: "<10"
+    license: PolyForm Noncommercial
+    tags: [冷门]
+    summary: 希腊值期权组合收益归因，Delta/Gamma/Vega/Theta分解，仅非商业
+
+  # M. 舆情分析 & 情绪因子
+  - id: M-01
+    category: M
+    category_name: 舆情分析与情绪因子
+    name: FinNews-Sentiment2Signal
+    repo: PandOvo/FinNews-Sentiment2Signal
+    url: https://github.com/PandOvo/FinNews-Sentiment2Signal
+    stars: "<20"
+    license: 未标注
+    tags: [冷门, 推荐]
+    summary: 金融新闻情感→日度情绪指数→择时策略回测
+
+  - id: M-02
+    category: M
+    category_name: 舆情分析与情绪因子
+    name: 情绪增强反转交易策略
+    repo: mukongshan/research-on-reversal-trading-strategies-incorporating-emotional-factors
+    url: https://github.com/mukongshan/research-on-reversal-trading-strategies-incorporating-emotional-factors
+    stars: "<10"
+    license: 未标注
+    tags: [冷门, 推荐]
+    summary: 南京大学大创，股吧情绪+LightGBM→个股情绪因子，嵌入反转策略
+
+  - id: M-03
+    category: M
+    category_name: 舆情分析与情绪因子
+    name: Stock-Market-Sentiment-Analysis
+    repo: ZijianWang1125/Stock-Market-Sentiment-Analysis
+    url: https://github.com/ZijianWang1125/Stock-Market-Sentiment-Analysis
+    stars: "<50"
+    license: 未标注
+    tags: [冷门]
+    summary: 东方财富股吧71k帖子+中文ELECTRA三分类
+
+  - id: M-04
+    category: M
+    category_name: 舆情分析与情绪因子
+    name: LLM_based_stock_sentiment
+    repo: 24mlight/LLM_based_stock_sentiment
+    url: https://github.com/24mlight/LLM_based_stock_sentiment
+    stars: "42"
+    license: 未标注
+    tags: [冷门]
+    summary: Gemini API分析A股新闻情感，FastAPI+Vue.js+ECharts
+
+  - id: M-05
+    category: M
+    category_name: 舆情分析与情绪因子
+    name: FinSight-NLP-Financial-Literacy-Agent
+    repo: wintershock/FinSight--An-NLP-based-Financial-Literacy-Agent
+    url: https://github.com/wintershock/FinSight--An-NLP-based-Financial-Literacy-Agent
+    stars: "<5"
+    license: 未标注
+    tags: [冷门]
+    summary: 股票数据+新闻爬取+中文情绪分析，东方财富财经早餐
+
+  # N. 知识图谱 & 产业链
+  - id: N-01
+    category: N
+    category_name: 知识图谱与产业链
+    name: stock-knowledge-graph
+    repo: wanghsinche/stock-knowledge-graph
+    url: https://github.com/wanghsinche/stock-knowledge-graph
+    stars: "~50"
+    license: MIT
+    tags: [冷门, 推荐]
+    summary: AI提取产业链关系，Obsidian双向链接可视化
+
+  - id: N-02
+    category: N
+    category_name: 知识图谱与产业链
+    name: FinKnowledgeGraph
+    repo: XuekaiChen/FinKnowledgeGraph
+    url: https://github.com/XuekaiChen/FinKnowledgeGraph
+    stars: "67"
+    license: MIT
+    tags: [冷门]
+    summary: Neo4j金融知识图谱+问答系统
+
+  - id: N-03
+    category: N
+    category_name: 知识图谱与产业链
+    name: financial_stock_knowledge_graph
+    repo: aihomo/financial_stock_knowledge_graph
+    url: https://github.com/aihomo/financial_stock_knowledge_graph
+    stars: "未显示"
+    license: 未标注
+    tags: [冷门]
+    summary: 基于Tushare的A股证券知识图谱，7步教程
+
+  # O. 技术形态 & 缠论 & 实战工具
+  - id: O-01
+    category: O
+    category_name: 技术形态与缠论与实战工具
+    name: chan.py
+    repo: Qdriving/chan.py
+    url: https://github.com/Qdriving/chan.py
+    stars: "~300"
+    license: MIT
+    tags: [推荐]
+    summary: 同K-03，缠论最完整Python实现
+
+  - id: O-02
+    category: O
+    category_name: 技术形态与缠论与实战工具
+    name: Sequoia
+    repo: xoyojo/Sequoia
+    url: https://github.com/xoyojo/Sequoia
+    stars: "~200"
+    license: 未标注
+    tags: [冷门]
+    summary: A股自动选股，海龟交易+缠中说禅牛市买点+技术形态
+
+  - id: O-03
+    category: O
+    category_name: 技术形态与缠论与实战工具
+    name: Z哥战法Python实现
+    repo: SebastienZh/StockTradebyZ
+    url: https://github.com/SebastienZh/StockTradebyZ
+    stars: "未显示"
+    license: 未标注
+    tags: [冷门]
+    summary: 5种战法，Tushare日线qfq数据
+
+  - id: O-04
+    category: O
+    category_name: 技术形态与缠论与实战工具
+    name: AStock Analyzer
+    repo: hacker4257/astock_analyzer
+    url: https://github.com/hacker4257/astock_analyzer
+    stars: "<50"
+    license: MIT
+    tags: [冷门]
+    summary: 五维涨停预测+游资跟踪+智能选股+买入信号+风险预警
+
+  # P. 金融大模型
+  - id: P-01
+    category: P
+    category_name: 金融大模型
+    name: FinGPT
+    repo: AI4Finance-Foundation/FinGPT
+    url: https://github.com/AI4Finance-Foundation/FinGPT
+    stars: "14k+"
+    license: Apache-2.0
+    tags: [热门]
+    summary: 开源金融LLM框架，LoRA轻量微调+RLSP股价强化学习
+
+  - id: P-02
+    category: P
+    category_name: 金融大模型
+    name: 轩辕FinX1
+    repo: xiaoyuan-intern/FinX1
+    url: https://github.com/xiaoyuan-intern/FinX1
+    stars: "~3.8k"
+    license: Apache-2.0
+    tags: [冷门, 推荐]
+    summary: 度小满O1级金融推理大模型，FinanceIQ超越GPT-4o
+
+  - id: P-03
+    category: P
+    category_name: 金融大模型
+    name: Finova
+    repo: antgroup/Finova
+    url: https://github.com/antgroup/Finova
+    stars: "<100"
+    license: 未标注
+    tags: [冷门, 推荐]
+    summary: 蚂蚁集团金融推理大模型评测基准
+
+  # Q. AFAC2025比赛方案合集
+  - id: Q-01
+    category: Q
+    category_name: AFAC2025比赛方案
+    name: Menu-RAG
+    repo: nambo/menu-rag
+    url: https://github.com/nambo/menu-rag
+    stars: "<50"
+    license: 未标注
+    tags: [冷门, 比赛]
+    summary: 赛题四三等奖（同A-03）
+
+  - id: Q-02
+    category: Q
+    category_name: AFAC2025比赛方案
+    name: tianchi_AFAC_AGENT
+    repo: cymbidum/tianchi_AFAC_AGENT
+    url: https://github.com/cymbidum/tianchi_AFAC_AGENT
+    stars: "<10"
+    license: 未标注
+    tags: [冷门, 比赛]
+    summary: 赛题四A榜前百（同A-04）
+
+  - id: Q-03
+    category: Q
+    category_name: AFAC2025比赛方案
+    name: AFAC2025赛题一Top2
+    repo: fengmaochairman/AFAC2025_Track1_Forecast-of-fund-subscription-and-redemption
+    url: https://github.com/fengmaochairman/AFAC2025_Track1_Forecast-of-fund-subscription-and-redemption
+    stars: "未显示"
+    license: 未标注
+    tags: [冷门, 比赛]
+    summary: 基金申赎预测Top2，LightGBM融合+大模型特征
+
+  - id: Q-04
+    category: Q
+    category_name: AFAC2025比赛方案
+    name: AFAC2025赛题三冠军
+    repo: shinsonwu/AFAC2025-Challenge-Compression-of-Long-Thinking-Chains-in-the-Financial-Field-Gold-Medal-Solution
+    url: https://github.com/shinsonwu/AFAC2025-Challenge-Compression-of-Long-Thinking-Chains-in-the-Financial-Field-Gold-Medal-Solution
+    summary: 金融长思维链压缩冠军，自一致性偏置解码+多温度交叉推理+LoRA
+
+  # R. 上财FinClaw
+  - id: R-01
+    category: R
+    category_name: 上财FinClaw
+    name: FinClaw
+    repo: aifinlab/FinClaw
+    url: https://github.com/aifinlab/FinClaw
+    stars: "<200"
+    license: 未标注
+    tags: [冷门, 推荐]
+    summary: 上财开源金融龙虾，1000+金融Skills
+
+  # S. 期权错定价套利
+  - id: S-01
+    category: S
+    category_name: 期权错定价套利
+    name: Enhanced-Weekly-Option-Mispricing-Arbitrage-Strategy
+    repo: chnoorlee/Enhanced-Weekly-Option-Mispricing-Arbitrage-Strategy
+    url: https://github.com/chnoorlee/Enhanced-Weekly-Option-Mispricing-Arbitrage-Strategy
+    stars: "<10"
+    license: 未标注
+    tags: [冷门]
+    summary: 周度期权错定价套利，SPY/QQQ，年化18-25%
+
+  # T. 量化学习资源 & 导航（新增分类）
+  - id: T-01
+    category: T
+    category_name: 量化学习资源与导航
+    name: awesome-systematic-trading
+    repo: paperswithbacktest/awesome-systematic-trading
+    url: https://github.com/paperswithbacktest/awesome-systematic-trading
+    stars: "未显示"
+    license: 未标注
+    tags: [推荐]
+    summary: 系统化交易精选资源清单，库/包/策略/书籍/博客/课程
+
+  - id: T-02
+    category: T
+    category_name: 量化学习资源与导航
+    name: ai-quant-book
+    repo: waylandzhang/ai-quant-book
+    url: https://github.com/waylandzhang/ai-quant-book
+    stars: "未显示"
+    license: CC BY-NC-SA 4.0
+    tags: [推荐]
+    summary: 《AI量化交易从0到1》中英双语教程，22课+30背景+4附录，多智能体架构
+
+websites:
+  - name: Global Asset History 在线版
+    url: https://ggg.tools24.uk/zh/
+    related_repo: scsfwgy/global_asset_history
+    note: global_asset_history的部署站点，用于在线查看跨资产历史收益
