@@ -1,1 +1,0 @@
-"""Shared OpenCompass benchmark configurations."""

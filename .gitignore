@@ -47,6 +47,9 @@ tmp/
 temp/
 *.tmp
 
+# 源码备份目录（本库不备份源码，仅保留地址索引）
+src/
+
 # git 子目录（我们用 shallow clone 不保留 .git）
 src/*/.git/
 
