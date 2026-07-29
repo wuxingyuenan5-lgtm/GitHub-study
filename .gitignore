@@ -1,0 +1,80 @@
+# 源码备份忽略规则
+# 大文件和依赖目录
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+dist/
+build/
+*.egg-info/
+*.egg
+
+# 数据文件（太大的数据不推）
+*.csv.gz
+*.bin
+*.h5
+*.pkl
+*.parquet
+data/
+dataset/
+datasets/
+
+# 模型文件（太大的模型不推）
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+models/
+model/
+checkpoints/
+
+# IDE和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# 日志
+*.log
+logs/
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# git 子目录（我们用 shallow clone 不保留 .git）
+src/*/.git/
+
+# 环境文件（可能包含 API Key）
+.env
+.env.local
+
+# 大型二进制和媒体文件
+*.pdf.gz
+*.zip
+*.tar.gz
+*.deb
+*.rpm
+*.pkg
+*.dmg
+*.mp4
+*.avi
+*.mov
+*.whl
+*.exe
+*.dll
+
+# Playwright 浏览器缓存
+.playwright/
+ms-playwright/
+
+# MongoDB 数据
+mongodb_data/
+
+# Docker 相关
+docker-compose.override.yml
