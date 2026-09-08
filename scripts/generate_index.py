@@ -69,7 +69,7 @@ def badge_for(project: dict) -> str:
     if "冷门" in tags:
         badges.append("🧊")
     license = project.get("license", "未标注")
-    if license in ("GPL-3.0", "PolyForm Noncommercial"):
+    if license in ("GPL-3.0", "LGPL-3.0", "PolyForm Noncommercial"):
         badges.append("⚠️")
     return " ".join(badges)
 
@@ -95,7 +95,7 @@ def generate_index(projects: list[dict]) -> str:
         "- 🔥 热门项目",
         "- ⭐ 推荐关注",
         "- 🧊 冷门项目",
-        "- ⚠️ 许可证有约束（GPL-3.0 / PolyForm Noncommercial / 未标注）",
+        "- ⚠️ 许可证有约束（GPL-3.0 / LGPL-3.0 / PolyForm Noncommercial）",
         "",
         "---",
         "",
@@ -131,7 +131,7 @@ def generate_index(projects: list[dict]) -> str:
         "",
         "1. **优先看分类 README**：每个分类目录下的 `README.md` 有详细的项目介绍、优缺点、适用场景、上手建议。",
         "2. **点击链接直达仓库**：所有项目地址均为 GitHub 原始仓库，Star/Fork/Issue 都在那里。",
-        "3. **注意许可证**：涉及 GPL-3.0 和 PolyForm Noncommercial 的项目有使用限制，详见根目录 README。",
+        "3. **注意许可证**：涉及 GPL-3.0、LGPL-3.0 和 PolyForm Noncommercial 的项目有使用限制，详见根目录 README。",
         "",
     ])
 
