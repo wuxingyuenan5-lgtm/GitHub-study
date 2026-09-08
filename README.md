@@ -27,15 +27,17 @@
 | [S-期权错定价套利](S-期权错定价套利/README.md) | 1 | 期权套利策略 |
 | [T-量化学习资源与导航](T-量化学习资源与导航/README.md) | 4 | 教程、书籍、资源清单 |
 | [U-其他关注清单](U-其他关注清单/README.md) | 41 | 通用AI、编程、生产力、学习资源（用户Stars） |
+| [V-交易平台基础设施与跨市场开发](V-交易平台基础设施与跨市场开发/README.md) | 8 | CCXT、跨所执行、可观测性、链上分析与平台底层组件 |
 
-**共 145 个项目，21 个分类**
+**共 153 个项目，22 个分类**
 
 ## ⚠️ 许可证说明
 
 | 许可证 | 含义 | 涉及项目 |
 |--------|------|----------|
 | **MIT** | 最自由，随便改随便商用 | 大多数项目 |
-| **Apache-2.0** | 较自由，需保留版权声明 | FinRobot, FinRL, FinGPT, FinX1, global-stock-data, a-stock-data |
+| **Apache-2.0** | 较自由，需保留版权声明 | FinRobot, FinRL, FinGPT, FinX1, global-stock-data, a-stock-data, Hummingbot, Prometheus, Coinbase AgentKit, CryptoSkills |
+| **LGPL-3.0** ⚠️ | 弱传染性，修改库本身与分发边界需重点评估 | NautilusTrader |
 | **GPL-3.0** ⚠️ | 传染性，修改分发必须开源 | FinSight, freqtrade, abu量化, PandaAI-Quantflow |
 | **AGPL-3.0** ⚠️ | 强传染性，网络服务也触发开源义务 | OpenBB, OpenAlice, OpenStock |
 | **PolyForm Noncommercial** ⚠️ | 仅非商业用途 | Attribution-Analysis-of-Options |
@@ -51,7 +53,7 @@
 
 ## 🔗 项目地址索引
 
-完整 145 个项目 GitHub 地址、Stars、许可证、一句话说明见：
+完整 153 个项目 GitHub 地址、Stars、许可证、一句话说明见：
 
 👉 **[项目索引.md](项目索引.md)**
 
