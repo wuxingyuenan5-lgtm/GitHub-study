@@ -1620,6 +1620,95 @@ projects:
     tags: []
     summary: 100+ Claude Code subagents
 
+  # V. 交易平台基础设施与跨市场开发
+  - id: V-01
+    category: V
+    category_name: 交易平台基础设施与跨市场开发
+    name: CCXT
+    repo: ccxt/ccxt
+    url: https://github.com/ccxt/ccxt
+    stars: "~43.9k"
+    license: MIT
+    tags: [热门, 推荐, 实盘]
+    summary: 100+加密交易所与预测市场统一API，适合Funding、跨所行情和新Venue快速接入
+
+  - id: V-02
+    category: V
+    category_name: 交易平台基础设施与跨市场开发
+    name: Hummingbot
+    repo: hummingbot/hummingbot
+    url: https://github.com/hummingbot/hummingbot
+    stars: "~19.9k"
+    license: Apache-2.0
+    tags: [热门, 推荐, 实盘]
+    summary: 加密做市/套利框架，XEMM、Spot-Perp、Hedge与Executor逻辑最值得跨所策略拆源码借鉴
+
+  - id: V-03
+    category: V
+    category_name: 交易平台基础设施与跨市场开发
+    name: NautilusTrader
+    repo: nautechsystems/nautilus_trader
+    url: https://github.com/nautechsystems/nautilus_trader
+    stars: "~28.6k"
+    license: LGPL-3.0
+    tags: [热门, 推荐, 实盘]
+    summary: Rust原生生产级事件驱动交易引擎，适合Crypto+IBKR/美股/期货统一内核Pilot
+
+  - id: V-04
+    category: V
+    category_name: 交易平台基础设施与跨市场开发
+    name: Prometheus
+    repo: prometheus/prometheus
+    url: https://github.com/prometheus/prometheus
+    stars: "~66k"
+    license: Apache-2.0
+    tags: [热门, 推荐]
+    summary: 监控与时序数据库，为7×24行情流、订单生命周期、对冲状态和Runtime建立Metrics与告警
+
+  - id: V-05
+    category: V
+    category_name: 交易平台基础设施与跨市场开发
+    name: Dune Skills
+    repo: duneanalytics/skills
+    url: https://github.com/duneanalytics/skills
+    stars: "~49"
+    license: MIT
+    tags: [冷门, 推荐]
+    summary: Dune官方Agent Skills，为加密看板补充链上资金流、DEX/DeFi、持仓与地址分析
+
+  - id: V-06
+    category: V
+    category_name: 交易平台基础设施与跨市场开发
+    name: HiThink Financial-API
+    repo: HiThink-Tech/Financial-API
+    url: https://github.com/HiThink-Tech/Financial-API
+    stars: "~2.8k"
+    license: MIT
+    tags: [推荐, MCP]
+    summary: 同花顺官方A股数据服务，覆盖行情、财报、估值、指数、板块与特色数据，适合增量同步到本地数据层
+
+  - id: V-07
+    category: V
+    category_name: 交易平台基础设施与跨市场开发
+    name: CryptoSkills
+    repo: andresdefi/cryptoskills
+    url: https://github.com/andresdefi/cryptoskills
+    stars: "~4"
+    license: Apache-2.0
+    tags: [冷门, 推荐]
+    summary: 95+ Crypto Agent Skills知识库，适合Codex/Cursor按需补协议上下文，不作为生产交易Runtime
+
+  - id: V-08
+    category: V
+    category_name: 交易平台基础设施与跨市场开发
+    name: Coinbase AgentKit
+    repo: coinbase/agentkit
+    url: https://github.com/coinbase/agentkit
+    stars: "~1.3k"
+    license: Apache-2.0
+    tags: [推荐]
+    summary: 给AI Agent提供钱包与链上操作能力，适合未来DEX/DeFi/onchain-lab，不是当前CEX Funding优先项
+
 websites:
   - name: Global Asset History 在线版
     url: https://ggg.tools24.uk/zh/
